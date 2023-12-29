@@ -2,6 +2,9 @@
 import Nav from "../components/Nav"
 import Homevideo from "../videos/Homevideo.mp4"
 import child from "../images/child.jpg"
+import gallery from "../images/gallery.jpg"
+import partners from "../images/partners.jpg"
+import products from "../images/products.jpg"
 import secondsection from "../images/secondsection.jpg"
 import { PiPackageFill } from "react-icons/pi";
 
@@ -82,12 +85,12 @@ export default function Home() {
 
 
       <p className="tracking-tighter text-3xl">Commercial Loans</p>
-      <p className="tracking-tighter text-base mt-3 text-slate-500">Helping the upcoming business market to grow </p>
+      <p className="tracking-tighter text-base mt-3 text-slate-500">Loans to help kickstart businesses. </p>
       <hr className="border-black my-5"/>
 
 
       <p className="tracking-tighter text-3xl">Micro Savings for Members</p>
-      <p className="tracking-tighter text-base mt-3 text-slate-500">Helping the upcoming business market to grow </p>
+      <p className="tracking-tighter text-base mt-3 text-slate-500">Save and save more as a member. </p>
       <hr className="border-black my-5"/>
     </div>
 
@@ -104,9 +107,9 @@ export default function Home() {
 
       <p className="tracking-tighter text-3xl ">Our Products</p>
 
-      <p className="tracking-tighter mb-20">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+      <p className="tracking-tighter mb-20">Grooming Centre ensures the delivery of microloan and microsavings.</p>
 
-      <img className="rounded-xl" src={child} alt="" />
+      <img className="rounded-xl h-72 object-cover" src={products} alt="" />
 
       <button className="px-5 bg-white rounded-full tracking-tighter mt-3 hover:bg-lime-400">see more</button>
 
@@ -119,9 +122,9 @@ export default function Home() {
 
 <p className="tracking-tighter text-3xl ">Gallery</p>
 
-<p className="tracking-tighter mb-20">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+<p className="tracking-tighter mb-20">We are committed to making an impact in social and economic development..</p>
 
-<img className="rounded-xl" src={child} alt="" />
+<img className="rounded-xl h-72 object-cover" src={gallery} alt="" />
 
 <button className="px-5 bg-white rounded-full tracking-tighter mt-3 hover:bg-lime-400">see more</button>
 
@@ -135,9 +138,9 @@ export default function Home() {
 
 <p className="tracking-tighter text-3xl ">Our Services</p>
 
-<p className="tracking-tighter mb-20">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+<p className="tracking-tighter mb-20">View all the services we have to offer at Groomings centre.</p>
 
-<img className="rounded-xl" src={child} alt="" />
+<img className="rounded-xl h-72 object-cover" src={child} alt="" />
 
 <button className="px-5 bg-white rounded-full tracking-tighter mt-3 hover:bg-lime-400">see more</button>
 
@@ -149,11 +152,11 @@ export default function Home() {
 
 <div className="col-span-1 rounded-xl bg-blue-300 p-2  h-fit ">
 
-<p className="tracking-tighter text-3xl ">The Team</p>
+<p className="tracking-tighter text-3xl ">Partners</p>
 
-<p className="tracking-tighter mb-20">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+<p className="tracking-tighter mb-20">Our relationships and connections working with us at Groomings centre.</p>
 
-<img className="rounded-xl" src={child} alt="" />
+<img className="rounded-xl h-72 object-cover" src={partners} alt="" />
 
 <button className="px-5 bg-white rounded-full tracking-tighter mt-3 hover:bg-lime-400">see more</button>
 
@@ -298,7 +301,7 @@ Speak to our Agent</p>
 
 
 <h2 className="text-5xl tracking-tighter mt-20">Latest News</h2>
-<p className="tracking-tighter mt-2 text-xl text-slate-500 mb-5">Our value and time in one place.</p>
+<p className="tracking-tighter mt-2 text-xl text-slate-500 mb-5">News and events from us.</p>
 
 
 <hr className="border-black"/>
@@ -310,14 +313,14 @@ Speak to our Agent</p>
 
 <hr className="border-black"/>
 <div className="flex justify-between my-5">
-<h2 className="text-4xl tracking-tighter">Award for the best NGO Lagos 2022</h2>
+<h2 className="text-4xl tracking-tighter">The annual talent hunt event</h2>
 <button className="bg-black tracking-tighter text-white rounded-full px-5">See More</button>
 </div>
 
 
 <hr className="border-black"/>
 <div className="flex justify-between my-5">
-<h2 className="text-4xl tracking-tighter">Award for the best NGO Lagos 2022</h2>
+<h2 className="text-4xl tracking-tighter">Our market initiative</h2>
 <button className="bg-black tracking-tighter text-white rounded-full px-5">See More</button>
 </div>
 
